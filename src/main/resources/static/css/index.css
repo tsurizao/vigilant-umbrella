@@ -9,3 +9,26 @@ body {
     border-radius: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#nav-bar-items {
+    display: flex;
+    flex-direction: row;
+}
+
+#initials-logo {
+
+}
+
