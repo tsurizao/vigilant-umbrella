@@ -1,0 +1,11 @@
+body {
+    background: #1E1E1E;
+    color: #FFFFFF;
+    font-family: 'Michroma', sans-serif;
+}
+
+#profile-picture {
+    width: 10em;
+    border-radius: 20px;
+}
+
