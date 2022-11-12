@@ -12,6 +12,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background: #E33654;
 }
 
 ul {
@@ -19,8 +21,14 @@ ul {
 }
 
 li {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#nav-bar-items-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #nav-bar-items {
@@ -28,7 +36,16 @@ li {
     flex-direction: row;
 }
 
-#initials-logo {
+#initials-logo-container {
+    padding: 1em;
+}
 
+#initials-logo {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 3em;
+    background: #FFFFFF;
+    color: #1E1E1E;
+    line-height: 2.25em;
 }
 
