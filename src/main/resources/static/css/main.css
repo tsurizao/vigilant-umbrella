@@ -1,3 +1,23 @@
+.bdazzledblue {
+    background: #3D5A80;
+}
+
+.darkskyblue {
+    background: #98C1D9;
+}
+
+.lightcyan {
+    background: #E0FBFC;
+}
+
+.gunmetal {
+    background: #293241;
+}
+
+.sandybrown {
+    background: #F29E4C;
+}
+
 body {
     background: #293241;
     color: #E0FBFC;
@@ -18,26 +38,6 @@ nav {
 ul {
     list-style: none;
     display: flex;
-}
-
-.bdazzledblue {
-    background: #3D5A80;
-}
-
-.darkskyblue {
-    background: #98C1D9;
-}
-
-.lightcyan {
-    background: #E0FBFC;
-}
-
-.gunmetal {
-    background: #293241;
-}
-
-.sandybrown {
-    background: #F29E4C;
 }
 
 li {
