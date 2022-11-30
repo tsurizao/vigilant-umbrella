@@ -3,23 +3,7 @@
     justify-content: center;
     align-items: center;
     color: #E0FBFC;
-    overflow-x: scroll;
     padding: 2em;
-}
-
-.p-cards-container::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-
-}
-
-.p-cards-container::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: 10px;
-}
-
-.p-cards-container::-webkit-scrollbar-track {
-    background: linear-gradient(90deg, #98C1D9, #3D5A80);
 }
 
 .p-card {
@@ -36,8 +20,20 @@
     transition: .3s;
 }
 
+.p-card-body-bottom {
+    margin-top: auto;
+}
+
+.p-card-footer {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
 .p-card:hover {
     transform: translateY(-1rem);
+    box-shadow: -.5rem 0 1.5rem black;
+    border: inset 3px #E0FBFC;
 }
 
 .p-card:hover ~ .p-card {
@@ -48,6 +44,6 @@
     margin-left: -130px;
 }
 
-article{
+article {
     cursor: pointer;
 }
