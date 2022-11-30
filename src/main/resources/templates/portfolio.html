@@ -9,10 +9,10 @@
 <nav th:replace="partials/partials.html :: nav"></nav>
 
 <section class="p-cards-container">
-    <article class="p-card">
+    <article class="p-card" id="barndoor">
         <!--  title-->
         <header class="p-card-header">
-            <h2>Lorem ipsum dolor.</h2>
+            <h2>Barndoor</h2>
         </header>
         <!--  description-->
         <div class="p-card-body">
@@ -64,29 +64,13 @@
             praesentium quidem sit temporibus, tenetur. Sapiente?
         </div>
     </article>
-    <article class="p-card">
-        <!--  title-->
-        <header class="p-card-header">
-            <h2>Lorem ipsum dolor.</h2>
-        </header>
-        <!--  description-->
-        <div class="p-card-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eaque exercitationem labore libero nisi
-            praesentium quidem sit temporibus, tenetur. Sapiente?
-        </div>
-    </article>
-    <article class="p-card">
-        <!--  title-->
-        <header class="p-card-header">
-            <h2>Lorem ipsum dolor.</h2>
-        </header>
-        <!--  description-->
-        <div class="p-card-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eaque exercitationem labore libero nisi
-            praesentium quidem sit temporibus, tenetur. Sapiente?
-        </div>
-    </article>
-
 </section>
 </body>
+<script>
+    (function () {
+        document.getElementById("barndoor").addEventListener("click", function () {
+            window.open("https://github.com/Barn-Door-Association/barndoor", "_blank");
+        });
+    }())
+</script>
 </html>

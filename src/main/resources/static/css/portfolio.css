@@ -47,3 +47,7 @@
 .p-card:not(:first-child) {
     margin-left: -130px;
 }
+
+article{
+    cursor: pointer;
+}
