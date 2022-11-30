@@ -16,11 +16,10 @@
 .p-cards-container::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 10px;
-    box-shadow: inset 2px 2px 2px hsla(214, 35%, 37%), inset -2px -2px -2px rgba(152, 193, 217);
 }
 
 .p-cards-container::-webkit-scrollbar-track {
-background: linear-gradient(90deg, #201c29, #201c29);
+    background: linear-gradient(90deg, #98C1D9, #3D5A80);
 }
 
 .p-card {
@@ -34,12 +33,17 @@ background: linear-gradient(90deg, #201c29, #201c29);
     width: 400px;
     min-width: 300px;
     box-shadow: -1rem 0 3rem black;
+    transition: .3s;
 }
 
-.p-card-header {
-
+.p-card:hover {
+    transform: translateY(-1rem);
 }
 
-.p-card-body {
+.p-card:hover ~ .p-card {
+    transform: translateX(130px);
+}
 
+.p-card:not(:first-child) {
+    margin-left: -130px;
 }
